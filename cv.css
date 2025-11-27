@@ -1,0 +1,65 @@
+/* Mise en page globale */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+/* ------------ SECTION GAUCHE ------------ */
+.section_gauche {
+    width: 35%;               /* plus petite */
+    background: #b7aeae;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section_gauche img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+}
+
+.section_gauche h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #999;
+    padding-bottom: 3px;
+}
+
+.section_gauche ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* ------------ SECTION DROITE ------------ */
+.section_droite {
+    background:#3d3e64
+    width: 65%;               /* plus grande */
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.section_droite h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.section_droite h2 {
+    margin-top: 25px;
+    font-size: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 3px;
+}
+
+.section_droite p {
+    line-height: 1.5;
+}
+
+/* Alignement du CV */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
